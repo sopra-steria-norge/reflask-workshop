@@ -1,0 +1,26 @@
+canvas {
+  display: none;
+}
+
+video {
+  border: 1px solid black;
+  margin: 0;
+  max-width: 90%;
+}
+
+.video-container {
+  align-content: center;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.compatibility-notice {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.result-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+}

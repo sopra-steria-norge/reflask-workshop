@@ -1,0 +1,5 @@
+frontend/node_modules
+backend/venv
+backend/__pycache__
+backend/**/main.bundle.js
+.vscode
