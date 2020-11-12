@@ -45,7 +45,46 @@ pip 20.2.1 from c:\python38\lib\site-packages\pip (python 3.8)
 ```
 
 ## Node
-__TO-DO__
+
+Frontend delen av workshoppen krever at vi har installert JavaScript runtime-systemet **Nodejs** og pakkebehandleren **npm** (Node Package Manager) som følger med Node.
+Vi må dermed sørge for å ha disse tilgjengelige før vi kan begynne arbeidet.
+
+### Dersom du *IKKE HAR* Nodejs installert på maskinen:
+
+Følg oppskriften som gjelder for ditt operativsystem:
+
+#### Windows:
+
+* Last ned LTS-versjon av Nodejs til Windows fra https://nodejs.org/.
+* Åpne installasjonsprogrammet og følg standard installasjonsflyt.
+* Når installasjonsveilederen er ferdig, åpne kommandolinjen i Windows og skriv `node --version`. Dersom den returnerer versjonsnummeret er du klar. Hvis ikke, forsøk installasjon på nytt.
+
+#### Ubuntu / WSL
+
+* Åpne et terminalvindu.
+* Sjekk at du har `curl` installert. Hvis ikke, installer med `sudo apt-get install curl`.
+* Installer Node Version Manager med kommandoen `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash`
+* Kjør kommandoen `command -v nvm`. Dersom den returnerer strengen `nvm` var installasjonen vellykket. Hvis ikke, lukk terminalvinduet, åpne et nytt et og forsøk installasjonen igjen.
+* Installer LTS versjon av node med kommandoen `nvm install node --lts`
+* Kjør kommandoen `node --version` for å bekrefte installasjonen av node.
+* Kjør kommandoen `npm --version` for å bekrefte installasjonen av npm.
+
+#### Mac
+
+* Last ned LTS-versjon av Nodejs til Mac fra https://nodejs.org/.
+* Åpne installasjonsprogrammet og følg standard installasjonsflyt.
+* Når installasjonen er ferdig, åpne et terminalvindu og skriv `node --version`. Dersom kommandoen returnerer et versjonsnummer er du klar. Hvis ikke, forsøk installasjon på nytt.
+
+### Dersom du *HAR* Nodejs installert på maskinen
+
+Verifiser at din installasjon av Nodejs er versjon *10.14* eller høyere. Vi skal bruke pakken `cross-env` i vårt prosjekt som krever dette.
+
+Åpne et terminalvindu og kjør følgende kommando: 
+
+`node --version`
+
+Dersom versjonsnummeret er 10.14 eller over er du klar. Dersom versjonsnummer er lavere, oppdater til en nyere versjon av Nodejs.
+Veiledning for installasjon over kan følges.
 
 
 ## Git
