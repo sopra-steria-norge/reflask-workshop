@@ -1,3 +1,4 @@
+/* Hide canvas used for capturing images */
 canvas {
   display: none;
 }
