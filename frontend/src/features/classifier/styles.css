@@ -1,8 +1,17 @@
 /* Hide canvas used for capturing images */
+
+header {
+  padding-top: 2rem;
+}
+
+header h1 {
+  margin-top: 0;
+}
+
 canvas {
   display: none;
 }
-
+  
 video {
   border: 1px solid black;
   margin: 0;

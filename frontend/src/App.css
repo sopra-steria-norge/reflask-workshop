@@ -1,0 +1,6 @@
+.App {
+  text-align: center;
+  background: rgb(180,180,230);
+  background: linear-gradient(180deg, rgba(180,180,230,1) 0%, rgba(255,255,255,1) 100%);
+}
+
