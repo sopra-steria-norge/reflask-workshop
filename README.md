@@ -1,6 +1,6 @@
 # 🚀 reflask
 
-## Velkommen til workshop 16.11.2020!
+## Velkommen til workshop 09.03.2021!
 Gjennom dette faggruppemøte ønsker vi å vise hvordan man enkelt kan benytte seg av React i Frontend og Python med Flask i backend. Vi kommer til å jobbe oss gjennom et eksempel som viser hvordan React kan kommunisere med et bibliotek i Python for bildeklassifisering gjennom et API.
 
 Dette vil være en workshop for alle og man behøver ikke å ha kjennskap til noen av delene før oppmøte. Det kommer til å bli lagt opp til en del praktiske oppgaver da målet for sessjonen er å vise hvordan man får koblet sammen Frontend og Backend.
