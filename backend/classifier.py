@@ -12,12 +12,12 @@ ImageFile.LOAD_TRUNCATED_IMAGES = True
 model = ResNet50(weights='imagenet')
 
 def classifyImage(file):
-    preds = getPrediction(file, model)
+    preds = getPrediction(file)
     prediction = decode_predictions(preds, top=1)
     result = str(prediction[0][0][1])
     return result
 
-def getPrediction(img_bytes, model):
+def getPrediction(img_bytes):
     original_image = Image.open(img_bytes)
     original_image = original_image.convert('RGB')
     original_image = original_image.resize((224, 224), Image.NEAREST)
