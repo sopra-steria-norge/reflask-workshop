@@ -1,5 +1,5 @@
 import os
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+os.environ['TF_CPP_MAX_VLOG_LEVEL'] = '3'
 from PIL import ImageFile, Image
 from numpy import expand_dims
 from werkzeug.utils import secure_filename
