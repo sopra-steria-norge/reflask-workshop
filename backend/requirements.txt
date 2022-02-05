@@ -20,7 +20,7 @@ livereload==2.6.3
 logger==1.4.0
 Markdown==3.2.2
 MarkupSafe==1.1.1
-numpy==1.19.2
+numpy==1.21.0
 oauthlib==3.1.0
 opt-einsum==3.3.0
 Pillow==9.0.0
